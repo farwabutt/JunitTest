@@ -1,17 +1,8 @@
 package com.exercise;
 
-import java.util.Scanner;
-
 public class JavaCode {
 public boolean CheckEvenOrOdd(int num){
-    //int num;
-    //System.out.println("Enter an Integer number:");
-    //Scanner input = new Scanner(System.in);
-    //num = input.nextInt();
-    if ( num % 2 == 0 )
-        return true;
-    else
-        return false;
+    return num % 2 == 0;
 }
 
 public String ReverseString(String s){
